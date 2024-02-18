@@ -1,0 +1,25 @@
+.wrapper{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+.block{
+    width: 100px;
+    margin: 10px;
+}
+
+.b1{
+    background-color: blue;
+    order: 3;
+}
+
+.b2{
+    background-color: red;
+    order: 1;
+}
+
+.b3{
+    background-color: green;
+    order: 2;
+}

@@ -1,0 +1,4 @@
+/* Вибір другого елемента li в списку */
+li:nth-of-type(2) {
+  background-color: #e74c3c;
+}

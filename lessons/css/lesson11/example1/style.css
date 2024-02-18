@@ -1,0 +1,4 @@
+.static-element {
+    position: static;
+    /* Елемент розташовується в потоці контенту, і значення top, right, bottom, left не мають впливу. */
+}  

@@ -1,0 +1,4 @@
+.element::first-line {
+  font-weight: bold;
+  color: blue;
+}

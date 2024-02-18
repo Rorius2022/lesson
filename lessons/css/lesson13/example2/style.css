@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.transform-example {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  transition: transform 1s;
+}
+
+.box.rotate {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+}
+
+.box.rotate:hover {
+  transform: rotate(45deg);
+}

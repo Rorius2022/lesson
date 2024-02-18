@@ -1,0 +1,23 @@
+.wrapper{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+	align-items: center;
+}
+
+.block{
+    width: 100px;
+    margin: 10px;
+}
+
+.b1{
+    background-color: blue;
+}
+
+.b2{
+    background-color: red;
+}
+
+.b3{
+    background-color: green;
+}

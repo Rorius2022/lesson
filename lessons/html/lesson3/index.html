@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 3: Списки в HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Урок 3: Списки в HTML</h1>
+    </header>
+
+    <section>
+        <h2>Ненумеровані списки (`&lt;ul&gt;`)</h2>
+        <p>Ненумеровані списки використовуються для представлення елементів без порядкового номеру.</p>
+        <pre>
+            <code>
+                &lt;ul&gt;
+                    &lt;li&gt;Перший елемент&lt;/li&gt;
+                    &lt;li&gt;Другий елемент&lt;/li&gt;
+                    &lt;li&gt;Третій елемент&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Нумеровані списки (`&lt;ol&gt;`)</h2>
+        <p>Нумеровані списки використовуються для представлення елементів з порядковим номером.</p>
+        <pre>
+            <code>
+                &lt;ol&gt;
+                    &lt;li&gt;Перший елемент&lt;/li&gt;
+                    &lt;li&gt;Другий елемент&lt;/li&gt;
+                    &lt;li&gt;Третій елемент&lt;/li&gt;
+                &lt;/ol&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Вкладені списки</h2>
+        <p>Можливо вкладати один вид списку всередину іншого, створюючи багаторівневі структури списків.</p>
+        <pre>
+            <code>
+                &lt;ul&gt;
+                    &lt;li&gt;Елемент 1&lt;/li&gt;
+                    &lt;li&gt;Елемент 2
+                        &lt;ul&gt;
+                            &lt;li&gt;Вкладений елемент 1&lt;/li&gt;
+                            &lt;li&gt;Вкладений елемент 2&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Елемент 3&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Списки термінів (`&lt;dl&gt;`, `&lt;dt&gt;`, `&lt;dd&gt;`)</h2>
+        <p>Список термінів використовується для представлення термінів та їхніх визначень.</p>
+        <pre>
+            <code>
+                &lt;dl&gt;
+                    &lt;dt&gt;HTML&lt;/dt&gt;
+                    &lt;dd&gt;Мова розмітки для створення веб-сторінок.&lt;/dd&gt;
+
+                    &lt;dt&gt;CSS&lt;/dt&gt;
+                    &lt;dd&gt;Мова стилізації для визначення вигляду веб-документів.&lt;/dd&gt;
+                &lt;/dl&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Змінення маркера (`type`, `start`, `reversed`)</h2>
+        <p>Атрибут `type` визначає тип маркера для нумерованих списків (`1`, `A`, `a`, `I`, `i`).</p>
+        <p>Атрибут `start` встановлює початкове значення для нумерованого списку.</p>
+        <p>Атрибут `reversed` змінює порядок нумерації на зворотний.</p>
+        <pre>
+            <code>
+                &lt;ol type="A"&gt;
+                    &lt;li&gt;Перший елемент&lt;/li&gt;
+                    &lt;li&gt;Другий елемент&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;ol start="3"&gt;
+                    &lt;li&gt;Третій елемент&lt;/li&gt;
+                    &lt;li&gt;Четвертий елемент&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;ol reversed&gt;
+                    &lt;li&gt;Третій елемент&lt;/li&gt;
+                    &lt;li&gt;Другий елемент&lt;/li&gt;
+                    &lt;li&gt;Перший елемент&lt;/li&gt;
+                &lt;/ol&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Списки та посилання</h2>
+        <p>Можливо використовувати списки для створення навігаційних меню та інших структур.</p>
+        <pre>
+            <code>
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Головна&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Про нас&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Контакти&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+        </pre>
+    </section>
+
+</body>
+</html>

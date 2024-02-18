@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Тема: <span style="color: green;">display: flex;</span></h1>
+        </div>
+        <p>
+            display: flex - це CSS властивість, яка встановлює контейнеру гнучкий контекст для розміщення дитячих елементів в одному ряду або колонці.
+        </p>
+        <p>
+            <h3>Основні властивості:</h3>
+        </p>
+        <ul>
+            <li>
+                <p>display: flex; - встановлює контейнеру режим flexbox.</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+    }
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example1/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>flex-direction - визначає напрямок розміщення елементів (рядок або колонка).</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+        flex-direction: row; /* або column */
+    }                          
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example2/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>flex-wrap - вказує, чи повинні переважати елементи на одному ряду чи обгортатися на наступний рядок (або колонку).</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+        flex-wrap: wrap; /* або nowrap, wrap-reverse */
+    }                          
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example3/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>justify-content - вирівнювання елементів по горизонталі.</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+        justify-content: start; /* або center, end, space-between, space-around */
+    }
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example4/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>align-items - вирівнювання елементів по вертикалі.</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+        align-items: center; /* або flex-start, flex-end, baseline, stretch */
+    }
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example5/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>align-content - вирівнювання контейнера по вертикалі, якщо є декілька рядків (для flex-wrap: wrap;).</p>
+                <pre>
+                    <code>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center; /* або flex-start, flex-end, space-between, space-around, stretch */
+    }
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example6/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>order - це CSS властивість, яка визначає порядок відображення елементів flexbox в контейнері.<br>
+                    За замовчуванням всі елементи мають значення order: 0;, і вони відображаються в порядку, в якому вони з'являються в дереві DOM.<br>
+                    Змінюючи значення order, ви можете змінити порядок відображення елементів.
+                </p>
+                <pre>
+                    <code>
+    .item {
+        order: 1; /* Змінює порядок відображення */
+    }
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example7/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+            <li>
+                <p>flex-grow - це CSS властивість, яка встановлює розтягнення елементів flexbox у відношенні один до одного в контейнері.<br>
+                    Значення flex-grow вказує, наскільки елемент має розширюватися відносно інших елементів flexbox зі значенням flex-grow менше за 1.<br>
+                    За замовчуванням всі елементи flexbox мають значення flex-grow: 0;, що означає, що вони не розширюються.
+                </p>
+                <pre>
+                    <code>
+    .item {
+        flex-grow: 1; /* Розширюється відносно інших елементів flexbox */
+    }                          
+                    </code>
+                </pre>
+                <div class="link">
+                    <p>Подивитися <a target="_blank" href="example8/index.html">приклад</a> реалізації</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.sticky-container {
+  position: relative;
+  height: 300px;
+  overflow: auto; /* Для створення прокрутки в контейнері. */
+}
+
+.sticky-element {
+  position: sticky;
+  top: 10px; /* Почне залишатися на місці, коли досягне 10 пікселів від верхнього краю контейнера. */
+}

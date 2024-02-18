@@ -1,0 +1,10 @@
+.element::before {
+    content: "Додати текст перед елементом: ";
+    color: blue;
+  }
+  
+  .element::after {
+    content: " Додати текст після елементу";
+    color: red;
+  }
+  

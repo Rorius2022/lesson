@@ -1,0 +1,4 @@
+.element::first-letter {
+  font-size: 150%;
+  color: red;
+}

@@ -1,0 +1,9 @@
+.relative-parent {
+    position: relative;
+}
+  
+  .relative-element {
+    position: relative;
+    top: 200px; /* Зміщення вниз на 20 пікселів відносно поточної позиції. */
+    left: 10px; /* Зміщення вліво на 10 пікселів відносно поточної позиції. */
+}  

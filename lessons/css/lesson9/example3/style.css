@@ -1,0 +1,4 @@
+/* Вибір останнього елемента списку */
+li:nth-last-child(1) {
+  background-color: #27ae60;
+}
