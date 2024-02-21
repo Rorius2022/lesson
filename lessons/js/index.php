@@ -22,6 +22,7 @@
                     <a href="lesson1">Урок 1. Вступ в JavaScript</a><br>
                     <a href="lesson2">Урок 2. Типи даних в JavaScript</a><br>
                     <a href="lesson3">Урок 3. Цикли в JavaScript</a><br>
+                    <a href="lesson4">Урок 4. Робота з Масивами в JavaScript</a><br>
                 </div>
             </div>
         </div>
