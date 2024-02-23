@@ -65,6 +65,40 @@ let bananaIndex = fruits.indexOf('банан');
             </pre>
             <p>bananaIndex містить 2</p>
         </li>
+        <li>
+            <h4><b>includes()</b> - Перевіряє, чи масив містить конкретний елемент. Повертає true або false:</h4>
+            <p></p>
+            <pre>
+                    <code>
+let fruits = ['яблуко', 'груша', 'банан'];
+let hasBanana = fruits.includes('банан');
+                    </code>
+            </pre>
+            <p>hasBanana дорівнює true</p>
+        </li>
+        <li>
+            <h4><b>splice()</b> - мінює вміст масиву</h4>
+            <p>splice(start, deleteCount, item1, ..., itemN): Змінює вміст масиву, видаляючи або замінюючи існуючі елементи та/або додаючи нові.</p>
+            <pre>
+                    <code>
+let fruits = ["яблуко", "груша", "банан", "апельсин"];
+fruits.splice(1, 2, "персик", "гранат");
+                    </code>
+            </pre>
+            <p>fruits дорівнює ["яблуко", "персик", "гранат", "апельсин"]</p>
+        </li>
+        <li>
+            <h4><b>slice()</b> - Повертає копію частини масиву </h4>
+            <p>slice(start, end): Повертає копію частини масиву від індексу start (включно) до індексу end (не включаючи).</p>
+            <pre>
+                    <code>
+let fruits = ["яблуко", "груша", "банан", "апельсин"];
+let slicedFruits = fruits.slice(1, 3);
+                    </code>
+            </pre>
+            <p>slicedFruits дорівнює ['груша', 'банан']</p>
+            <p>fruits залишається без змін</p>
+        </li>
     </ul>
 </div>
 <div class="link">
