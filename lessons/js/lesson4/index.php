@@ -77,7 +77,7 @@ let hasBanana = fruits.includes('банан');
             <p>hasBanana дорівнює true</p>
         </li>
         <li>
-            <h4><b>splice()</b> - мінює вміст масиву</h4>
+            <h4><b>splice()</b> - змінює вміст масиву</h4>
             <p>splice(start, deleteCount, item1, ..., itemN): Змінює вміст масиву, видаляючи або замінюючи існуючі елементи та/або додаючи нові.</p>
             <pre>
                     <code>
