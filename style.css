@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1200px;
 }
 .default p {font-size:28px; margin:10px 0;}
 a{color:#0075c4;}
