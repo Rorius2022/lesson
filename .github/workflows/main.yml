@@ -12,17 +12,17 @@ jobs:
       - uses: actions/checkout@v2
       # Setup key
       - run: set -eu
-      - run: ls
+#      - run: ls
       - run: mkdir "$HOME/.ssh"
       - run: echo "${{ secrets.KEY }}" > "$HOME/.ssh/id_rsa"
       - run: chmod 600 "$HOME/.ssh/id_rsa"
-      - run: echo Hello
-      - run: cd "$HOME"
-      - run: ls
-      - run: mkdir ".ssh"
-      - run: ls
-      - run: cd ".ssh"
-      - run: ls
+#      - run: echo Hello
+#      - run: cd "$HOME"
+#      - run: ls
+#      - run: mkdir ".ssh"
+#      - run: ls
+#      - run: cd ".ssh"
+#      - run: ls
       #- run: cat index.html
       #- run: echo "${{ secrets.KEY }}"
       #- run: cat "id_rsa"
