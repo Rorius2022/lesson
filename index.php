@@ -70,6 +70,17 @@ function countDirectories($directoryPath) {
                     <a href="lessons/js"><img src="images/js.png"></a>
                     <a href="lessons/js"><p><?=$numberOfDirectories?> <?=$sufix?></p></a>
                 </div>
+                <div class="img">
+                    <?
+                    $directoryPath = 'lessons/git';
+                    $numberOfDirectories = countDirectories($directoryPath);
+                    if($numberOfDirectories == 0 || $numberOfDirectories >= 5)$sufix = "уроків";
+                    if($numberOfDirectories == 1)$sufix = "урок";
+                    if(in_array($numberOfDirectories, array(2,3,4)))$sufix = "уроки";
+                    ?>
+                    <a href="lessons/git"><img src="images/git.png"></a>
+                    <a href="lessons/git"><p><?=$numberOfDirectories?> <?=$sufix?></p></a>
+                </div>
             </div>
 		</div>
 	</div>
