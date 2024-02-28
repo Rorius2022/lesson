@@ -10,13 +10,13 @@
         <div class="default">
             <div class="top">
                 <div class="back-arrow">
-                    <a href="/index.php"><img src="/images/git.png" width="30" height="30"></a>
+                    <a href="/index.php"><img src="/images/back.png" width="30" height="30"></a>
                 </div>
                 <h1>Уроки Git</h1>
             </div>
             <div class="main">
                 <div>
-                    <img src="/images/js.png">
+                    <img src="/images/git.png">
                 </div>
                 <div class="img left">
                     <a href="lesson1">Урок 1. Вступ в Git</a><br>
