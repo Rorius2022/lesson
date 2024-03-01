@@ -1,21 +1,24 @@
-.wrapper{
-    padding: 10px;
+.wrapper {
+  padding: 10px;
 }
-.title{
-    display: flex;
-    justify-content: center;
+.title {
+  display: flex;
+  justify-content: center;
 }
-pre{
-    background-color: rgb(255, 247, 229);
-    border: 1px solid red;
-    /* white-space: pre-line; */
+pre {
+  background-color: rgb(255, 247, 229);
+  border: 1px solid red;
+  /* white-space: pre-line; */
 }
-.link{
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid cornflowerblue;
+.link {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid cornflowerblue;
 }
-.link a{
-    text-decoration: none;
+.link a {
+  text-decoration: none;
+}
+h4 {
+  display: inline-block;
 }
