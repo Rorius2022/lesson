@@ -20,7 +20,7 @@
                 </div>
                 <div class="img left">
                     <a href="lesson1">Урок 1. Вступ в Git</a><br>
-                    <a href="lesson1">Урок 2. Основні команди в Git</a><br>
+                    <a href="lesson2">Урок 2. Основні команди в Git</a><br>
                 </div>
             </div>
         </div>
